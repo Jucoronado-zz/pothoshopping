@@ -24,9 +24,13 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent" android:id="@+id/parbuscar" android:layout_weight="1"/>
         <Button
-                android:text="BUSCAR"
+                android:text="Historial"
                 android:layout_width="25dp"
                 android:layout_height="wrap_content" android:id="@+id/botbuscar" android:layout_weight="1"/>
+        <Button
+                android:text="Neuva Busqueda"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/Ir" android:layout_weight="1"/>
     </LinearLayout>
 
 </LinearLayout>

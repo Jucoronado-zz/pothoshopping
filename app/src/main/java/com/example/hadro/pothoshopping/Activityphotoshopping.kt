@@ -1,9 +1,12 @@
 package com.example.hadro.pothoshopping
 
 import android.content.Context
+import android.content.Intent
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import android.view.View
 import android.widget.*
+import kotlinx.android.synthetic.main.layoutphotoshopping.*
 import java.io.*
 import java.util.*
 import java.util.*
@@ -97,6 +100,18 @@ class Activityphotoshopping : AppCompatActivity() {
                 else ->  eliminar(i)
             }
         }
+
+        Ir.setOnClickListener {
+
+            val intent = Intent(this@Activityphotoshopping, Activityphotoshopping2::class.java)
+            intent.putExtra("vec", " " )
+            startActivity(intent)
+        }
+
+
+    }
+
+
 
 }
 

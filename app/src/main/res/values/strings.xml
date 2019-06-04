@@ -2,4 +2,7 @@
     <string name="app_name">Pothoshopping</string>
     <string name="textview">textview</string>
     <string name="buscar">/Buscar</string>
+    <string name="title_activity_activityphotoshopping2">Activityphotoshopping2</string>
+    <string name="tomar_foto">Tomar foto</string>
+    <string name="todo">TODO</string>
 </resources>
