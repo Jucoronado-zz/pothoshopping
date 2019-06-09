@@ -9,7 +9,13 @@ buildscript {
     dependencies {
         classpath 'com.android.tools.build:gradle:3.3.2'
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
-        implementation 'com.frosquivel:magicalcamera:6.0.0'
+
+        //No deja sincronizar librerias
+
+      // implementation 'com.squareup.retrofit2:retrofit:2.6.0'
+        // implementation 'com.google.code.gson:gson:2.8.5'
+        //implementation 'com.squareup.picasso:picasso:2.71828'
+       // implementation 'com.frosquivel:magicalcamera:6.0.0'
         //implementation ( 'com.frosquivel:magicalcamera:6.0.0@aar'){
           //  transitive = false
         }

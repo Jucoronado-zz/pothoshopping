@@ -1,4 +1,3 @@
-
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
         xmlns:android="http://schemas.android.com/apk/res/android"
@@ -6,17 +5,26 @@
         xmlns:app="http://schemas.android.com/apk/res-auto"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".Activityphotoshopping" android:orientation="vertical">
+        tools:context=".Activityphotoshopping2" android:orientation="vertical">
 
-    <ImageView
+    <LinearLayout
+            android:orientation="vertical"
             android:layout_width="match_parent"
-            android:layout_height="650dp"
-            android:tag="foto"
-            app:srcCompat="@mipmap/ic_launcher"
-            android:id="@+id/foto"
-            android:layout_weight="1" android:contentDescription="@string/todo"/>
-    <Button
-            android:text="TOMAR FOTO"
+            android:layout_height="500dp">
+        <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" app:srcCompat="@mipmap/ic_launcher" android:id="@+id/foto"
+                android:layout_weight="1"/>
+    </LinearLayout>
+    <LinearLayout
+            android:orientation="vertical"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" android:id="@+id/TomarFoto" android:layout_weight="1"/>
+            android:layout_height="wrap_content" android:layout_gravity="center" android:gravity="center">
+        <Button
+                android:text="Button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/Tfoto" android:layout_weight="1"
+                android:gravity="center"/>
+    </LinearLayout>
+
 </LinearLayout>
